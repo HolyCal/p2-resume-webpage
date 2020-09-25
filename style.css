@@ -1,0 +1,388 @@
+body {
+     background-color: white;
+     font-family: "Josefin Sans", sans-serif;
+}
+ .container {
+     display: grid;
+     grid-template: auto auto auto auto auto auto/250px auto auto;
+     grid-gap: 10px;
+     margin: 10px;
+}
+ .grid-nav {
+     grid-column: 1/2;
+     grid-row: 1/8; 
+}
+ .grid-title {
+     grid-column: 2/4;
+     grid-row: 1;
+}
+ .grid-education {
+     grid-column: 2/3;
+}
+ .grid-education-content {
+     grid-column: 3/4;
+}
+ .grid-experience {
+     grid-column: 2/3;
+}
+ .grid-experience-2nd-li {
+     grid-column: 2/3;
+     grid-row: 4;
+}
+ .grid-experience-content {
+     grid-column: 3/4;
+     grid-row: 3;
+}
+ .grid-experience-content-2nd-li {
+     grid-column: 3/4;
+     grid-row: 4;
+}
+ .grid-hobbies, .grid-references {
+     grid-column: 2/4;
+}
+.box-c {
+    max-height: 93px;
+}
+.box-d {
+    max-height: 280px;
+}
+ img {
+     max-width: 100%;
+     height: auto;
+}
+ #resume-photo {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     grid-column: 1/2;
+     max-width: 100%;
+     height: auto;
+}
+ .wrapper {
+     height: auto;
+     width: auto;
+     display: flex;
+     flex-flow: none;
+}
+ .hobbies-icon {
+     display: inline-block;
+     width: auto;
+     margin: auto;
+     max-width: 100%;
+     height: auto;
+}
+ hr {
+     clear: left;
+}
+ header {
+     color: lightslategray;
+     font-weight: bold;
+     margin: auto;
+     text-align: center;
+}
+ h1 {
+     color: lightslategray;
+     font-weight: bold;
+     font-size: 35px;
+     margin: auto;
+     text-decoration: underline orange;
+     border-radius: 10px;
+     text-align: center;
+}
+ .subtitle {
+     animation: none;
+     color: orange;
+     font-size: 20px;
+     margin: auto;
+     text-align: left;
+}
+ .nav {
+     background-color: CornflowerBlue;
+     font-size: 15px;
+     border: solid #3271e7;
+     border-radius: 10px;
+     text-align: center;
+     height: 100%;
+     margin-bottom: 2%;
+     line-height: 20px;
+}
+ span {
+     display: block;
+}
+h2 {
+     color: #c5ccd3;
+     background-color: #4881ea;
+     margin: 5%;
+     width: auto;
+     padding: 8px;
+     font-size: 20px;
+}
+ h4 {
+     color: #c5ccd3;
+     text-align: center;
+     text-decoration: solid orange underline;
+     font-size: 18px;
+}
+ p {
+     color: #d3d9de;
+}
+ .websites {
+     color: white;
+     text-decoration: none;
+     font-size: 30px;
+}
+ .websites:visited {
+     color: red;
+}
+ .websites:active {
+     color: orange;
+}
+ #about-me {
+     color: #c5ccd3;
+     background-color: #4881ea;
+     margin: 5%;
+     width: auto;
+     padding: 5px;
+     padding-top: 6px;
+     font-size: 20px;
+     padding-bottom: auto;
+     text-decoration: none;
+}
+ .hand {
+     margin: 5%;
+     background-color: #76a0ef;
+     font-family: "Indie Flower", cursive;
+     letter-spacing: 1px;
+     padding: 5px;
+     font-size: 20px;
+     border: solid orange;
+     border-radius: 10px;
+     width: auto;
+     color: #f0f2f4;
+}
+ h3 {
+     background-color: grey;
+     color: lightskyblue;
+     letter-spacing: 2px;
+     font-size: 20px;
+     padding: 5px;
+     padding-top: 7px;
+}
+ .h3border {
+     color: grey;
+}
+ li {
+     color: lightslategray;
+}
+ .education-date {
+     color: lightslategray;
+     font-size: 15px;
+     line-height: 60px;
+     display: block;
+     text-decoration: underline orange;
+}
+ .education-college {
+     color: lightslategray;
+     font-size: 15px;
+     line-height: 20px;
+     display: block;
+     margin-left: auto;
+     text-decoration: underline orange;
+}
+ .education-content {
+     color: lightslategray;
+     font-size: 15px;
+     padding-top: 1px;
+     letter-spacing: 1px;
+     display: block;
+     line-height: 20px;
+     border-left: 2px solid orange;
+}
+ .experience-date {
+     color: lightslategray;
+     font-size: 15px;
+     padding: auto;
+     line-height: 20px;
+     padding-bottom: 20px;
+     display: block;
+     margin-left: auto;
+     margin-top: auto;
+     text-decoration: underline orange;
+}
+ .experience-college {
+     color: lightslategray;
+     font-size: 15px;
+     line-height: 20px;
+     display: block;
+     text-decoration: underline orange;
+}
+ .experience-content {
+     color: lightslategray;
+     font-size: 15px;
+     margin: auto;
+     padding: auto;
+     letter-spacing: 1px;
+     display: block;
+     line-height: 20px;
+     border-left: 2px solid orange;
+}
+ .experience-content-2nd-li {
+     color: lightslategray;
+     font-size: 15px;
+     padding: auto;
+     letter-spacing: 1px;
+     display: block;
+     line-height: 20px;
+     border-left: 2px solid orange;
+}
+ .experience-content span[id] {
+     padding-bottom: 100px;
+}
+ h5 {
+     color: #6e8091;
+     font-size: 15px;
+}
+ .ref {
+     color: grey;
+     font-size: 20px;
+     letter-spacing: 2px;
+     text-decoration: none;
+     text-align: left;
+     margin-left: 10px;
+     margin-bottom: 20px;
+     font-style: italic;
+}
+ .ref-oc {
+     color: lightslategray;
+     font-size: 15px;
+     letter-spacing: 2px;
+     margin-left: 10px;
+     display: block;
+}
+ .span-ref {
+     display: block;
+     color: lightslategray;
+     font-size: 15px;
+     margin-left: 20px;
+     margin-bottom: 20px;
+     line-height: 20px;
+}
+ .ref-mobile, .ref-email {
+     color: lightslategray;
+     font-size: 15px;
+     letter-spacing: 2px;
+     margin-left: 10px;
+     display: inline-block;
+}
+/* w<691px */
+ @media screen and (max-width: 691px) and (orientation: portrait) {
+     .container {
+         display: grid;
+         grid-template: auto auto auto auto auto auto auto/auto auto;
+         grid-gap: 5px;
+    }
+     .grid-title {
+         grid-column: 1/3;
+         grid-row: 1/2;
+    }
+     .grid-nav {
+         grid-column: 1/3;
+         grid-row: 2/3;
+    }
+     .grid-education {
+         grid-column: 1/2;
+         grid-row: 3/4;
+    }
+     .grid-education-content {
+         grid-column: 2/3;
+         grid-row: 3/4;
+    }
+     .grid-experience {
+         grid-column: 1/2;
+         grid-row: 4/5;
+    }
+     .grid-experience-2nd-li {
+         grid-column: 1/2;
+         grid-row: 5/6;
+    }
+     .grid-experience-content {
+         grid-column: 2/3;
+         grid-row: 4/5;
+    }
+     .grid-experience-content-2nd-li {
+         grid-column: 2/3;
+         grid-row: 5/6;
+    }
+     .grid-hobbies {
+         grid-column: 1/3;
+         grid-row: 6/7;
+    }
+     .grid-references {
+         grid-column: 1/3;
+         grid-row: 7/8;
+    }
+     .websites {
+     color: white;
+     text-decoration: none;
+     font-size: 30px;
+}
+ .websites:visited {
+     color: red;
+}
+ .websites:active {
+     color: orange;
+}
+    /* w<448px */
+     @media screen and (max-device-width: 448px) and (orientation: portrait) {
+         .subtitle {
+             text-align: center;
+        }
+    }
+    /* iPad portrait */
+     @media screen and (max-device-width: 768px) and (orientation: portrait) {
+         .container {
+             display: grid;
+             grid-template: auto auto auto auto auto auto auto/auto auto;
+             grid-gap: 5px;
+        }
+         .grid-title {
+             grid-column: 1/3;
+             grid-row: 1/2;
+        }
+         .grid-nav {
+             grid-column: 1/3;
+             grid-row: 2/3;
+        }
+         .grid-education {
+             grid-column: 1/2;
+             grid-row: 3/4;
+        }
+         .grid-education-content {
+             grid-column: 2/3;
+             grid-row: 3/4;
+        }
+         .grid-experience {
+             grid-column: 1/2;
+             grid-row: 4/5;
+        }
+         .grid-experience-2nd-li {
+             grid-column: 1/2;
+             grid-row: 5/6;
+        }
+         .grid-experience-content {
+             grid-column: 2/3;
+             grid-row: 4/5;
+        }
+         .grid-experience-content-2nd-li {
+             grid-column: 2/3;
+             grid-row: 5/6;
+        }
+         .grid-hobbies {
+             grid-column: 1/3;
+             grid-row: 6/7;
+        }
+         .grid-references {
+             grid-column: 1/3;
+             grid-row: 7/8;
+        }
