@@ -1,0 +1,311 @@
+body {
+         background-color: white;
+         font-family: "Josefin Sans", sans-serif;
+    }
+.container {
+         display: grid;
+         grid-template: auto auto auto auto auto/ 250px auto auto;
+         grid-gap: 10px;
+         margin: 10px;
+    }
+.grid-nav {
+         grid-column: 1/2;
+         grid-row: 1/6;
+    }
+.grid-title {
+         grid-column: 2/4;
+    }
+ .grid-education {
+         grid-column: 2/3;
+    }
+.grid-experience {
+         grid-column: 2/3;
+    }
+.grid-hobbies {
+         grid-column: 2/4;
+    }
+ .grid-references {
+         grid-column: 2/4;
+    }
+img {
+         max-width: 100%;
+         height: auto;
+    }
+ #resume-photo {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 50%;
+         grid-column: 1/2;
+         max-width: 100%;
+         height: auto;
+    }
+ .wrapper {
+         height: auto;
+         width: auto;
+         display: flex;
+         flex-flow: none;
+    }
+#hobbies-icon {
+         display: inline-block;
+         width: auto;
+         margin: auto;
+         max-width: 100%;
+         height: auto;
+    }
+hr {
+         clear: left;
+    }
+header {
+         color: lightslategrey;
+         font-weight: bold;
+         margin: auto;
+         text-align: center;
+    }
+h1 {
+         color: lightslategrey;
+         font-weight: bold;
+         font-size:35px;
+         margin: auto;
+         text-decoration: underline orange;
+         border-radius: 10px;
+         text-align: center;
+    }
+.subtitle {
+         color: orange;
+         font-size: 20px;
+         margin: auto;
+         text-align: left;
+    }
+.nav {
+         background-color: CornflowerBlue;
+         font-size: 15px;
+         border: solid #3271e7;
+         border-radius: 10px;
+         text-align: center;
+         height: 100%;
+         margin-bottom: 2%;
+         line-height: 20px;
+    }
+span {
+         display: block;
+    }
+h2 {
+         color: #c5ccd3;
+         background-color: #4881ea;
+         margin: 5%;
+         width: auto;
+         padding: 8px;
+         font-size: 20px;
+    }
+h4 {
+         color: #c5ccd3;
+         text-align: center;
+         text-decoration: solid orange underline;
+         font-size: 18px;
+    }
+p {
+         color: #c5ccd3;
+    }
+a {
+         color: white;
+         text-decoration: none;
+    }
+a:visited {
+         color: red;
+    }
+ a:hover {
+         font-size: 20px;
+    }
+     a:active {
+         color: orange;
+    }
+#about-me {
+         color: #c5ccd3;
+         background-color: #4881ea;
+         margin: 5%;
+         width: auto;
+         padding: 5px;
+         padding-top: 6px;
+         font-size: 20px;
+         padding-bottom: auto;
+         text-decoration: none;
+    }
+.hand {
+         margin: 5%;
+         background-color: #76a0ef;
+         font-family: "Indie Flower", cursive;
+         letter-spacing: 1px;
+         padding: 5px;
+         font-size: 20px;
+         border: solid orange;
+         border-radius: 10px;
+         width: auto;
+         color: #f0f2f4;
+    }
+.btn {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    }
+h3 {
+         background-color: grey;
+         color: lightskyblue;
+         letter-spacing: 2px;
+         font-size: 20px;
+         padding: 5px;
+         padding-top: 7px;
+    }
+.h3border {
+         color: grey;
+    }
+.education-date {
+         color: lightslategrey;
+         font-size: 15px;
+         line-height: 60px;
+         display: block;
+         margin-left: auto;
+         margin-top: auto;
+         text-decoration: underline orange;
+    }
+.education-college {
+         color: lightslategrey;
+         font-size: 15px;
+         line-height: 20px;
+         display: block;
+         margin-left: auto;
+         text-decoration: underline orange;
+    }
+.education-content {
+         color: lightslategrey;
+         font-size: 15px;
+         padding: 5px;
+         letter-spacing: 1px;
+         display: block;
+         line-height: 20px;
+         border-left: 2px solid orange;
+    }
+.drop-button {
+         background-color: #ffd700;
+         color: lightslategrey;
+         margin-left: 40px;
+         padding: 15px;
+         font-size: 15px;
+         border: 1px solid black;
+         border-radius: 10px;
+         letter-spacing: 6px;
+    }
+ .dropdown {
+         position: relative;
+         display: inline-block;
+    }
+.dropdown-content {
+         display: none;
+         position: absolute;
+         background-color: #76a0ef;
+         min-width: auto;
+         box-shadow: 0vw 2vw 2vw 2vw rgba(0,0,0,0.4);
+         z-index: 1;
+    }
+.dropdown-content a {
+         color: #f0f2f4;
+         padding: 10px;
+         line-height: 20px;
+         text-decoration: none;
+         display: block;
+         font-size: 15px;
+    }
+.dropdown-content a:hover {
+         background-color: #4881ea;
+         line-height: 25px;
+    
+    }
+.dropdown:hover .dropdown-content {
+         display: block;
+    }
+.dropdown:hover .drop-button {
+         color: springgreen;
+    }
+.row-3-col-2 {
+         margin-top: 40px;
+    }
+/* Space between 1st and 2nd (li) under Experience */
+     .experience-college [id] {
+         margin-bottom: 90px;
+    }
+.experience-date {
+         color: lightslategrey;
+         font-size: 15px;
+         line-height: 20px;
+         padding-bottom: 20px;
+         display: block;
+         margin-left: auto;
+         margin-top: auto;
+         text-decoration: underline orange;
+         
+    }
+.experience-college {
+         color: lightslategrey;
+         font-size: 15px;
+         line-height: 20px;
+         display: block;
+         padding-bottom: 2px;
+         text-decoration: underline orange;
+    }
+.experience-content {
+         color: lightslategrey;
+         font-size: 15px;
+         padding: 5px;
+         letter-spacing: 1px;
+         display: block;
+         line-height: 20px;
+         border-left: 2px solid orange;
+    }
+.experience-content span[id] {
+         padding-bottom: 50px;
+    }
+h5 {
+         color: #c5ccd3;
+         font-size: 15px;
+    }
+.ref {
+         color: grey;
+         font-size: 20px;
+         letter-spacing: 2px;
+         text-decoration: none;
+         text-align: left;
+         margin-left: 10px;
+         margin-bottom: 20px;
+         font-style: italic;
+    }
+.ref-oc {
+         color: lightslategrey;
+         font-size: 15px;
+         letter-spacing: 2px;
+         margin-left: 10px;
+         display: block;
+    }
+span-ref {
+         display: block;
+         color: lightslategrey;
+         font-size: 15px;
+         margin-left: 20px;
+         margin-bottom: 20px;
+         line-height: 20px;
+    }
+ .ref-mobile {
+         color: lightslategrey;
+         font-size: 15px;
+         letter-spacing: 2px;
+         margin-left: 10px;
+         display: inline-block;
+    }
+.ref-email {
+         color: lightslategrey;
+         font-size: 15px;
+         letter-spacing: 2px
+         margin-left: 10px;
+         display: inline-block;
+    }
+
